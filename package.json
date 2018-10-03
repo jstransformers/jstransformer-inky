@@ -1,7 +1,7 @@
 {
-  "name": "jstransformer-foo",
-  "version": "0.0.0",
-  "description": "Foo support for JSTransformers.",
+  "name": "jstransformer-inky",
+  "version": "0.1.0",
+  "description": "Inky support for JSTransformers.",
   "keywords": [
     "jstransformer"
   ],
@@ -22,11 +22,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jstransformers/jstransformer-foo.git"
+    "url": "https://github.com/jstransformers/jstransformer-inky.git"
   },
   "author": {
     "name": "JSTransformers Team",
     "url": "http://github.com/orgs/jstransformers/people"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "extend-shallow": "^3.0.2",
+    "inky": "^1.3.7"
+  }
 }
