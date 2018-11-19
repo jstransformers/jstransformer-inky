@@ -32,6 +32,6 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "extend-shallow": "^3.0.2",
-    "inky": "^1.3.7"
+    "inky": "git+https://git@github.com/RobLoach/inky.git#patch-1"
   }
 }

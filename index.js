@@ -19,5 +19,5 @@ exports.render = function (str, options, locals) {
   const html = cheerio.load(str)
 
   // Now unleash the fury
-  return i.releaseTheKraken(html)
+  return i.releaseTheKraken(html, {justBody: true})
 }
